@@ -1,10 +1,9 @@
 {
-  "name": "docs",
+  "name": "sample-docsify-docs",
   "version": "1.0.0",
-  "description": "Zodiac CMS docs",
-  "main": "index.js",
+  "description": "Sample docsify docs",
   "scripts": {
-    "start": "docsify serve ."
+    "start": "docsify serve ./docs"
   },
   "keywords": [],
   "author": "",

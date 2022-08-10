@@ -1,36 +1,35 @@
-# Hướng dẫn sử dụng **Bảng tin nội bộ Zodiac Ranking**
+# Tài liệu mẫu sử dụng Docsify
 
-## Mô tả
 
-Bảng tin nội bộ là website được thiết kế tối ưu cho màn hình trình chiếu có độ phân giải từ FullHD 1080p trở lên, tỷ lệ 16:9 (1920x1080).
+## Trước khi bắt đầu
 
-![](assets/images/readme.jpg)
+Yêu cầu máy cài đặt Node.js >= v10
 
-Các nội dung trên màn hình có thể thay đổi nhờ vào trang quản trị nội dung CMS riêng biệt.Các nội dung được cập nhật ngay lập tức khi lưu thay đổi từ phía CMS mà không cần tải lại trang.
+## Bắt đầu
 
-## Yêu cầu hệ thống
+Mở thư mục chứa tài liệu, chạy:
 
-### Công nghệ
+```bash
+npm start
+```
 
-- Node.js LTS (v12 hoặc v14)
-- NPM v6 (đã đi kèm khi cài đặt Node)
-- Build tools (`build-essential` trên các OS hệ Debian)
+Trang tài liệu được triển khai ở địa chỉ: [http://localhost:3000](http://localhost:3000)
 
-### Phần cứng
+## Hướng dẫn biên soạn
 
-- Ít nhất 1 core CPU (khuyến khích 2 nhân trở lên)
-- Ít nhất 2GB RAM (khuyến khích 4GB trở lên)
-- ít nhất 1GB ổ cứng trống (khuyến khích 32GB trống)
+Nội dung tài liệu nằm trong thư mục `docs`.
 
-### Database
+- Nội dung trang chủ nằm tại: `docs/readme.md`.
+- Nội dung thanh điều hướng nằm tại: `docs/_sidebar.md`.
+- Nội dung trang sẽ được render trên trang html `docs/index.html`.
+- Các file tài nguyên: hình ảnh, video, MS Word, PDF... lưu tại `docs/assets`.
 
-- SQLite >= 3
+Các file còn lại là các trang nội dung viết bằng Markdown.
 
-### OS
+## Deploy
 
-- Ubuntu >= 18.04 (LTS-Only)
-- Debian >= 9.x
-- CentOS/RHEL >= 8
-- macOS Mojave or newer (ARM không được hỗ trợ)
-- Windows Server >= 2012
-- Docker
+Chỉ đơn giản là bê tất cả nội dung của thư mục `docs` và đưa lên server làm web tĩnh.
+
+## Tra cứu
+
+[Tài liệu chính thức của Docsify](https://docsify.js.org/#/)
