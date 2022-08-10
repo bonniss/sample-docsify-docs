@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Zodiac CMS docs",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
