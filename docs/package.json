@@ -1,0 +1,11 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "description": "Mitech center developers' docs",
+  "scripts": {
+    "dev": "npx docsify serve . --port=5173"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

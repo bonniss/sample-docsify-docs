@@ -1,13 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* [Mô tả và yêu cầu](/)
-<!-- * [Yêu cầu hệ thống](sysreq.md) -->
-* [Download](download.md)
-* [Cài đặt](installation.md)
-* [CMS](cms.md)
-* [Quản trị hệ thống](sysadmin.md)
-* [Tổ chức dữ liệu](entities.md)
-* [Quản trị viên](user-role.md)
-* [Import dữ liệu](import-content.md)
-* [Quy trình nhập liệu](workflow.md)
-* [Quản lý KPI](kpi.md)
+* [Giới thiệu](/ "Tất tật tài liệu của developer tại Mitech")
+* Tác vụ thường làm
+  * [Tạo trang tài liệu](/guide/write-page.md)
+  * [Điều chỉnh sidebar](/guide/modify-sidebar.md)
+  * [Làm nổi cú pháp code](/guide/syntax-highlighting.md)
+  * [Hình ảnh & file cho tải xuống](/guide/attachments.md)
+  * [Bổ sung tính năng cho tài liệu](/guide/docsify-plugin.md)
