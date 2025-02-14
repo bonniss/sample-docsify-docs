@@ -72,7 +72,7 @@ cd within-react-app
 npm install && npm run dev
 ```
 
-Đi đến tài liệu tại địa chỉ `http://localhost:5173/docs/index.html`.
+Đi đến tài liệu tại địa chỉ [http://localhost:5173/docs/index.html](http://localhost:5173/docs/index.html).
 
 ![docsify in react app](_screenshot/within-react-spa.png)
 
