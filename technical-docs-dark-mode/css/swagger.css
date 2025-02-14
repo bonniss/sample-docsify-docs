@@ -1,0 +1,105 @@
+/* Container for the radio buttons */
+.theme-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 400px; /* Adjust max-width as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Individual radio button styles */
+.radio-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust spacing between radio buttons */
+  cursor: pointer;
+}
+
+/* Hide the default radio button */
+.radio-label input[type='radio'] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Custom radio button */
+.radio-custom {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4caf50; /* Border color */
+  border-radius: 50%; /* Rounded shape */
+  margin-right: 8px; /* Spacing between custom radio and label text */
+}
+
+/* Custom radio button checked state */
+.radio-label input[type='radio']:checked + .radio-custom::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #4caf50; /* Checked color */
+  border-radius: 50%; /* Rounded shape */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  transition: all 150ms;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Headers and sections */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #ffffff;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+body.dark-mode a:hover {
+  color: #64ffda;
+}
+
+/* Form inputs */
+body.dark-mode input[type='text'],
+body.dark-mode input[type='email'],
+body.dark-mode input[type='password'],
+body.dark-mode textarea {
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+/* Buttons */
+body.dark-mode button,
+body.dark-mode input[type='submit'] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+body.dark-mode button:hover,
+body.dark-mode input[type='submit']:hover {
+  opacity: 0.8;
+}
+
+.dark-mode .swagger-ui {
+  filter: invert(88%) hue-rotate(180deg);
+}

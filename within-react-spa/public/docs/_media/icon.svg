@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="2">
+  <!-- Hexagon Shape -->
+  <polygon points="100,20 170,60 170,140 100,180 30,140 30,60" fill="#1E3A8A" stroke="#60A5FA"/>
+
+  <!-- Circuit Lines -->
+  <line x1="100" y1="20" x2="100" y2="0" stroke="#93C5FD"/>
+  <line x1="170" y1="60" x2="200" y2="60" stroke="#93C5FD"/>
+  <line x1="30" y1="60" x2="0" y2="60" stroke="#93C5FD"/>
+
+  <!-- Document Icon -->
+  <rect x="70" y="70" width="60" height="80" fill="#F9FAFB" stroke="#111827"/>
+  <line x1="80" y1="80" x2="120" y2="80" stroke="#1F2937"/>
+  <line x1="80" y1="90" x2="120" y2="90" stroke="#1F2937"/>
+  <line x1="80" y1="100" x2="120" y2="100" stroke="#1F2937"/>
+
+  <!-- Code Brackets -->
+  <text x="40" y="110" font-size="20" fill="#E5E7EB">{ }</text>
+
+  <!-- Gear Icon -->
+  <circle cx="160" cy="160" r="15" stroke="#E5E7EB" fill="#374151"/>
+  <circle cx="160" cy="160" r="5" fill="#E5E7EB"/>
+</svg>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Mitech Center Docs</title>
+  <meta name="description" content="Tất tật tài liệu của developer tại Mitech">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+  <link href="//fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+  <!-- docsify-darklight-theme -->
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme"
+    type="text/css"
+  />
+
+  <!-- Charty styles -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest/dist/docsify-charty.min.css">
+
+  <!-- Prism theme -->
+  <link rel="stylesheet" href="//unpkg.com/prismjs/themes/prism-tomorrow.css">
+
+  <!-- Sidebar collapse -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .golem {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loader {
+      width: 50px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 8px solid #0000;
+      border-right-color: #ffa50097;
+      position: relative;
+      animation: l24 1s infinite linear;
+    }
+    .loader:before,
+    .loader:after {
+      content: "";
+      position: absolute;
+      inset: -8px;
+      border-radius: 50%;
+      border: inherit;
+      animation: inherit;
+      animation-duration: 2s;
+    }
+    .loader:after {
+      animation-duration: 4s;
+    }
+    @keyframes l24 {
+      100% {transform: rotate(1turn)}
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="golem">
+      <div class="loader"></div>
+    </div>
+  </div>
+
+  <script>
+    window.isProduction = location.hostname !== 'localhost';
+    window.$docsify = {
+      name: 'Mitech Center Docs',
+      repo: 'https://github.com/Mitech-Center/super-docs',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 1,
+      auto2top: true,
+      logo: '_media/header-small.png',
+      mermaidConfig: {
+        querySelector: ".mermaid"
+      },
+      search: {
+        placeholder: 'Tìm kiếm toàn bộ',
+        noData: 'Không có kết quả',
+      },
+      darklightTheme: {
+        siteFont : '"JetBrains Mono", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+        codeFontFamily: '"JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+      },
+      tabs: {
+        persist: true, // default
+        sync: true, // default
+        theme: 'material', // default
+        tabComments: true, // default
+        tabHeadings: true // default
+      },
+      charty: {
+      },
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      'flexible-alerts': {
+        style: 'flat',
+        note: {
+          label: "Ghi chú"
+        },
+        tip: {
+          label: "Tip"
+        },
+        warning: {
+          label: "Cảnh báo"
+        },
+        attention: {
+          label: "Chú ý"
+        }
+      },
+      chat: {
+        title: 'Hội thoại',
+        users: [
+          { nickname: 'Mitech Center', avatar: '/_media/header-small.png' },
+          { nickname: 'Client', avatar: '/_media/simpson.png' },
+        ],
+        myself: 'Mitech Center',
+        os: 'mac'
+      },
+    }
+  </script>
+
+  <!-- Required -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Recommended -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- Pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+  <!-- docsify-example-panels (latest) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+
+  <!-- Tabs -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+  <!-- Charty -->
+  <script src="//cdn.jsdelivr.net/npm/@markbattistella/docsify-charty@latest"></script>
+
+  <!-- Markmap -->
+  <script src="//cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-markmap.js@1.0.0/docsify-markmap.min.js"></script>
+
+  <!-- Mermaid -->
+  <script type="module">
+    import mermaid from "//cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true, theme: 'base' });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
+
+  <!-- Flexible Alerts -->
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+  <!-- Docsify Chat -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-chat/lib/docsify-chat.min.js"></script>
+
+  <!-- Syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javadoclike.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javastacktrace.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-mermaid.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-tsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-aspnet.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cshtml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-t4-templating.min.js"></script>
+</body>
+</html>

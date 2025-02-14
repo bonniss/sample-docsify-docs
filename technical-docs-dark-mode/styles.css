@@ -1,0 +1,78 @@
+img {
+  border-radius: 1rem;
+}
+
+.markmap {
+  width: 100%;
+  height: 500px;
+}
+
+/* override `docsify-darklight-theme` */
+.markdown-section pre > code {
+  font-family: var(--codeFontFamily);
+}
+
+/* override `docsify-copy-code-button` */
+.docsify-copy-code-button {
+  font-family: inherit;
+  font-size: 0.75em !important;
+}
+
+/* override `docsify-search` */
+.search input {
+  font-family: inherit;
+}
+
+.search .clear-button svg {
+  transform: scale(0.75);
+}
+
+/* override `docsify-tabs` */
+.docsify-tabs * {
+  font-family: inherit;
+}
+
+/* override `mermaid` */
+.mermaid * {
+  font-family: inherit !important;
+}
+
+/* override docsify-chat */
+section.chat-panel {
+  background: var(--background);
+  filter: brightness(0.96);
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.chat-panel .main-area .chat-message.myself .message-box .message {
+  background-color: darkslateblue;
+  color: white;
+}
+
+section.chat-panel .main-area .chat-message .message-box .message {
+  background-color: saddlebrown;
+  color: white;
+}
+
+/* override docsify-subsidebar */
+.sidebar-nav ul:not(.app-sub-sidebar) > li > a,
+.sidebar-nav ul:not(.app-sub-sidebar) > li.level-1 {
+  font-size: 15px;
+}
+.sidebar-nav ul:not(.app-sub-sidebar) > li.file::before {
+  background: none;
+  content: "→";
+  color: inherit;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -1rem;
+  height: auto;
+  width: auto;
+}
+.sidebar-nav ul:not(.app-sub-sidebar) > li.file.open::before {
+  content: "";
+}
