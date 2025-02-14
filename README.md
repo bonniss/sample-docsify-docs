@@ -1,16 +1,33 @@
 # Tài liệu mẫu sử dụng Docsify
 
-
 ## Trước khi bắt đầu
 
-Yêu cầu máy cài đặt Node.js >= v10
+> Node.js >= v10
+
+Cài đặt docsify với scope global:
+
+```sh
+npm i docsify-cli -g
+```
 
 ## Bắt đầu
 
-Mở thư mục chứa tài liệu, chạy:
+Từ thư mục gốc, chạy:
 
 ```bash
 npm start
+```
+
+hoặc chạy thẳng:
+
+```sh
+docsify serve ./docs
+```
+
+hoặc từ bên trong thư mục `docs`:
+
+```sh
+docsify serve .
 ```
 
 Trang tài liệu được triển khai ở địa chỉ: [http://localhost:3000](http://localhost:3000)
