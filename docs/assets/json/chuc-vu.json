@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Kỹ sư An ninh Quốc phòng",
+    "description": null,
+    "code": "ky-su-an-ninh-quoc-phong"
+  },
+  {
+    "name": "Kĩ sư giải pháp AVSI",
+    "description": "Kĩ sư giải pháp AVSI",
+    "code": "ki-su-giai-phap-avsi"
+  },
+  {
+    "name": "Nhân Viên Nghiên cứu và tư vấn Chuyển đổi số",
+    "description": null,
+    "code": "nhan-vien-nghien-cuu-va-tu-van-chuyen-doi-so"
+  },
+  {
+    "name": "Nhân Viên Kinh Doanh Phân Phối",
+    "description": null,
+    "code": "nhan-vien-kinh-doanh-phan-phoi"
+  },
+  {
+    "name": "Trưởng phòng",
+    "description": null,
+    "code": "truong-phong"
+  },
+  {
+    "name": "Trợ lý dự án",
+    "description": null,
+    "code": "tro-ly-du-an"
+  },
+  {
+    "name": "Chuyên viên",
+    "description": null,
+    "code": "chuyen-vien"
+  },
+  {
+    "name": "Nhân viên ",
+    "description": null,
+    "code": "nhan-vien-1"
+  },
+  {
+    "name": "Phó Chủ tịch",
+    "description": null,
+    "code": "pho-chu-tich"
+  },
+  {
+    "name": "Phó TGĐ",
+    "description": null,
+    "code": "pho-tgd"
+  }
+]

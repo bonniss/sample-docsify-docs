@@ -1,0 +1,92 @@
+[
+  {
+    "name": "KDPP AVSI Hà Nội",
+    "description": "",
+    "code": "kdpp-avsi-ha-noi",
+    "director": 1,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "khanhpq@zodiac.com.vn"
+  },
+  {
+    "name": "ANPQ Hà Nội",
+    "description": "ANPQ Hà Nội",
+    "code": "anpq-ha-noi",
+    "director": 2,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "datnt@zodiac.com.vn"
+  },
+  {
+    "name": "KDPP AV HCM",
+    "description": "",
+    "code": "kdpp-av-hcm",
+    "director": 3,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "thangnd@zodiac.com.vn"
+  },
+  {
+    "name": "KDPP AV Hà Nội",
+    "description": "",
+    "code": "kdpp-av-ha-noi",
+    "director": 7,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "cuongns@zodiac.com.vn"
+  },
+  {
+    "name": "KDPP AVSI HCM",
+    "description": "",
+    "code": "kdpp-avsi-hcm",
+    "director": 12,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "thanhdm@zodiac.com.vn"
+  },
+  {
+    "name": "Marketing",
+    "description": "",
+    "code": "marketing",
+    "director": 11,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "ductq@zodiac.com.vn"
+  },
+  {
+    "name": "Phòng Hàng Hóa",
+    "description": "",
+    "code": "phong-hang-hoa",
+    "director": 6,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "doba@zodiac.com.vn"
+  },
+  {
+    "name": "Phòng Nhân sự",
+    "description": "",
+    "code": "phong-nhan-su",
+    "director": 7,
+    "can_join_ranking": true,
+    "acc_password": "Abc159753",
+    "acc_email": "diepdb@zodiac.com.vn"
+  },
+  {
+    "name": "Ban Giám Đốc",
+    "description": "",
+    "code": "ban-giam-doc",
+    "director": 8,
+    "can_join_ranking": false,
+    "acc_password": "Abc159753",
+    "acc_email": "trangnk@zodiac.com.vn"
+  },
+  {
+    "name": "Hội đồng Quản trị",
+    "description": "",
+    "code": "hoi-dong-quan-tri",
+    "director": 9,
+    "can_join_ranking": false,
+    "acc_password": "Abc159753",
+    "acc_email": "khanhvq@zodiac.com.vn"
+  }
+]

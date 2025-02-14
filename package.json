@@ -1,0 +1,11 @@
+{
+  "name": "sample-docsify-docs",
+  "version": "1.0.0",
+  "description": "Sample docsify docs",
+  "scripts": {
+    "start": "docsify serve ./docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
